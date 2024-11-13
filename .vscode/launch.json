@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:VirtualBankSystem}",
+            "name": "Debug VirtualBankSystem",
+            "program": "${workspaceFolder:VirtualBankSystem}/.build/debug/VirtualBankSystem",
+            "preLaunchTask": "swift: Build Debug VirtualBankSystem"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:VirtualBankSystem}",
+            "name": "Release VirtualBankSystem",
+            "program": "${workspaceFolder:VirtualBankSystem}/.build/release/VirtualBankSystem",
+            "preLaunchTask": "swift: Build Release VirtualBankSystem"
+        }
+    ]
+}
